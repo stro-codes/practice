@@ -3,7 +3,7 @@
 def main():
 	print("this is a test program")
 
-	test = "true"
+	# var test = "true"
 
 	x = 1
 	y = 0
@@ -18,7 +18,7 @@ def main():
 	elif(numero < 3):
 		print("wow this test sucks")
 	else:
-		print("test is true");
+		print("test is true")
 		
 	
 def sum(one, two):

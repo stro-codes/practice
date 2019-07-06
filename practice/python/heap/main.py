@@ -1,4 +1,4 @@
-from heap import heapsortMax, buildMaxHeap, heapifyMax
+from Heap import heapsortMax, buildMaxHeap, heapifyMax
 
 def main():
 	arr = [1,5,30,6,3,5,7,8,2,6]
