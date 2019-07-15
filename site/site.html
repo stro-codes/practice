@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>store.</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+
+
+</head>
+
+<style>
+
+body {
+	background-color: wheat;
+}
+
+#cardAlert {
+	position: absolute;
+	z-index: 100;
+	right: 0%;
+	left: 0%;
+	vertical-align: middle;
+	width: 25%;
+	margin: auto;
+	visibility: hidden;
+}
+
+</style>
+
+<header> 
+
+	<div class="w3-bar w3-blue">
+	
+		<h1 class="w3-padding">store.</h1>
+		<a href="#" class="w3-container w3-bar-item w3-button">Home</a>
+		<a href="#" class="w3-container w3-bar-item w3-button">Shop</a>
+		<a href="#" class="w3-container w3-bar-item w3-button">About</a>
+	
+	</div>
+
+</header>
+
+<body>
+
+	<div class="w3-container">
+
+		<div id="cardAlert">
+				<div class="w3-card-4 w3-dark-grey">
+			
+						<div class="w3-container w3-center">
+							<h3 id="a">New Node</h3>
+							<img src="img_avatar3.png" alt="Avatar" style="width:80%">
+							<h5 id="b">Test Node</h5>
+							<h6 id="cc"></h6>
+						
+							<button class="w3-button w3-green">Okay</button>
+							<button class="w3-button w3-red" onclick="closeCardAlert()">Close</button>
+						</div>
+						
+				</div>
+		
+		</div>
+
+		<div class="w3-row">
+
+			<div class="w3-col" style="width:10%">
+
+				<p></p>
+
+			</div>
+	
+			<div class="w3-col" style="width:80%">
+
+				<div class="w3-container w3-white">
+
+					<h1 class="w3-margin">heres the content</h1>
+
+					<div class="w3-card-4 w3-margin">
+
+						<div class="w3-container w3-green">
+							<h2 id="htw">Header</h2>
+						</div>
+						
+						<form class="w3-container w3-padding w3-margin">
+						
+							<label>Type:</label>
+							<input id="first" class="w3-input" type="text">
+							
+							<label>Class:</label>
+							<input id="last" class="w3-input" type="text">
+
+							<label>Id:</label>
+							<input id="idd" class="w3-input" type="text">
+						
+							<label>Submit:</label>
+							<div class="w3-container">
+								<div>
+
+								</div>	
+								<input class="w3-button w3-border" type="button" style="width: 100%" onclick="fudge()">
+
+							</div>
+							
+
+							<label>Output</label>
+							<textarea id="test" style="width: 100%">testing</textarea>
+						</form>
+						
+						</div>
+				
+				</div>
+			
+			</div>
+	
+			<div class="w3-col" style="width:10%">
+			
+				<p></p>
+			
+			</div>
+
+		</div>
+
+	</div>
+	
+</body>
+
+<template>
+	<div id="cardAlert">
+		<div class="w3-card-4 w3-dark-grey">
+
+			<div class="w3-container w3-center">
+				<h3>New Node</h3>
+				<img src="img_avatar3.png" alt="Avatar" style="width:80%">
+				<h5>Test Node</h5>
+				<p></p>
+			
+				<button class="w3-button w3-green"></button>
+				<button class="w3-button w3-red"></button>
+			</div>
+			
+		</div>
+	</div>
+</template>
+
+</html>
