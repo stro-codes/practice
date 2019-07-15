@@ -37,5 +37,3 @@ var testObject = {
     grades: [],
 };
 
-testObject['grades'].push(10);
-console.log(testObject['grades']);

@@ -4,6 +4,8 @@
 <head>
 
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
 	<title>store.</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,6 +15,10 @@
 </head>
 
 <style>
+
+footer div {
+
+}
 
 body {
 	background-color: wheat;
@@ -31,41 +37,23 @@ body {
 
 </style>
 
-<header> 
-
-	<div class="w3-bar w3-blue">
-	
-		<h1 class="w3-padding">store.</h1>
-		<a href="#" class="w3-container w3-bar-item w3-button">Home</a>
-		<a href="#" class="w3-container w3-bar-item w3-button">Shop</a>
-		<a href="#" class="w3-container w3-bar-item w3-button">About</a>
-	
-	</div>
-
-</header>
-
 <body>
+
+	<header> 
+
+		<div class="w3-bar w3-blue">
+		
+			<a href="#" class="w3-container w3-bar-item w3-button w3-hover-white">Home</a>
+			<a href="#" class="w3-container w3-bar-item w3-button w3-hover-white">About</a>
+			<a href="#" class="w3-container w3-bar-item w3-button w3-right w3-hover-pale-green">Login</a>
+		
+		</div>
+	
+	</header>
 
 	<div class="w3-container">
 
-		<div id="cardAlert">
-				<div class="w3-card-4 w3-dark-grey">
-			
-						<div class="w3-container w3-center">
-							<h3 id="a">New Node</h3>
-							<img src="img_avatar3.png" alt="Avatar" style="width:80%">
-							<h5 id="b">Test Node</h5>
-							<h6 id="cc"></h6>
-						
-							<button class="w3-button w3-green">Okay</button>
-							<button class="w3-button w3-red" onclick="closeCardAlert()">Close</button>
-						</div>
-						
-				</div>
-		
-		</div>
-
-		<div class="w3-row">
+		<div class="w3-row w3-padding">
 
 			<div class="w3-col" style="width:10%">
 
@@ -75,41 +63,41 @@ body {
 	
 			<div class="w3-col" style="width:80%">
 
-				<div class="w3-container w3-white">
+				<div class="w3-container w3-border w3-border-blue">
 
-					<h1 class="w3-margin">heres the content</h1>
+					<h1 class="w3-margin">Blog.</h1>
 
-					<div class="w3-card-4 w3-margin">
+					<!-- This is where the posts begin. -->
+					<div class="w3-card-4 w3-margin w3-white">
 
-						<div class="w3-container w3-green">
-							<h2 id="htw">Header</h2>
+						<div class="w3-container w3-blue">
+							<h2 class="post_header">Today's Header</h2>
+							<h4 class="post_date">07/15/19</h4>
 						</div>
 						
 						<form class="w3-container w3-padding w3-margin">
-						
-							<label>Type:</label>
-							<input id="first" class="w3-input" type="text">
+							<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
 							
-							<label>Class:</label>
-							<input id="last" class="w3-input" type="text">
-
-							<label>Id:</label>
-							<input id="idd" class="w3-input" type="text">
-						
-							<label>Submit:</label>
-							<div class="w3-container">
-								<div>
-
-								</div>	
-								<input class="w3-button w3-border" type="button" style="width: 100%" onclick="fudge()">
-
-							</div>
 							
 
-							<label>Output</label>
-							<textarea id="test" style="width: 100%">testing</textarea>
 						</form>
 						
+					</div>
+
+					<div class="w3-card-4 w3-margin w3-white">
+
+							<div class="w3-container w3-blue">
+								<h2 class="post_header">Today's Header</h2>
+								<h4 class="post_date">07/15/19</h4>
+							</div>
+							
+							<form class="w3-container w3-padding w3-margin">
+								<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+								
+								
+	
+							</form>
+							
 						</div>
 				
 				</div>
@@ -127,6 +115,12 @@ body {
 	</div>
 	
 </body>
+
+<footer>
+	<div class="footer">
+		<p></p>
+	</div>
+</footer>
 
 <template>
 	<div id="cardAlert">
