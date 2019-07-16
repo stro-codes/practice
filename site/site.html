@@ -16,10 +16,6 @@
 
 <style>
 
-footer div {
-
-}
-
 body {
 	background-color: wheat;
 }
@@ -43,8 +39,8 @@ body {
 
 		<div class="w3-bar w3-blue">
 		
-			<a href="#" class="w3-container w3-bar-item w3-button w3-hover-white">Home</a>
-			<a href="#" class="w3-container w3-bar-item w3-button w3-hover-white">About</a>
+			<a onclick="loadHome()" class="w3-container w3-bar-item w3-button w3-hover-white">Home</a>
+			<a onclick="loadAbout()" class="w3-container w3-bar-item w3-button w3-hover-white">About</a>
 			<a href="#" class="w3-container w3-bar-item w3-button w3-right w3-hover-pale-green">Login</a>
 		
 		</div>
@@ -61,11 +57,18 @@ body {
 
 			</div>
 	
-			<div class="w3-col" style="width:80%">
+			<div id="content" class="w3-col" style="width:80%; display:none">
+			</div>
 
-				<div class="w3-container w3-border w3-border-blue">
+			<div id="main_page" class="w3-col" style="width:80%">
 
-					<h1 class="w3-margin">Blog.</h1>
+				<div id="post_container" class="w3-container w3-border w3-border-blue">
+
+					<div class="w3-bar">
+						<h1 class="w3-margin">Blog.</h1>
+						<a onclick="addBlogPost()" class="w3-button w3-right w3-padding w3-hover-blue">+</a>
+					</div>
+					
 
 					<!-- This is where the posts begin. -->
 					<div class="w3-card-4 w3-margin w3-white">
@@ -98,7 +101,7 @@ body {
 	
 							</form>
 							
-						</div>
+					</div>
 				
 				</div>
 			
