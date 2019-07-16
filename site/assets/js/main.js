@@ -51,6 +51,11 @@ function addBlogPost() {
 
 }
 
+function loadImages() {
+    document.getElementById('main_page').style.display = 'none';
+    document.getElementById('content').innerHTML = '<object type="text/html" data="images.html" style="width:100%;height:100%"></object>';
+} 
+
 var testObject = {
     name: "testy",
     age: 1,
