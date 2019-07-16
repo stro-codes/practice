@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 
-	<title>store.</title>
+	<title>Blog.</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
@@ -37,11 +37,12 @@ body {
 
 	<header> 
 
-		<div class="w3-bar w3-blue">
+		<div class="w3-bar w3-float w3-margins w3-padding w3-blue">
 		
-			<a onclick="loadHome()" class="w3-container w3-bar-item w3-button w3-hover-white">Home</a>
-			<a onclick="loadAbout()" class="w3-container w3-bar-item w3-button w3-hover-white">About</a>
-			<a href="#" class="w3-container w3-bar-item w3-button w3-right w3-hover-pale-green">Login</a>
+			<a onclick="loadHome()" class="w3-container w3-bar-item w3-button w3-hover-white w3-round-large">Home</a>
+			<a onclick="loadAbout()" class="w3-container w3-bar-item w3-button w3-hover-white w3-round-large">About</a>
+			<a onclick="loadImages()" class="w3-container w3-bar-item w3-button w3-hover-white w3-round-large">Images</a>
+			<a href="#" class="w3-container w3-bar-item w3-button w3-right w3-hover-pale-green w3-round-large">Login</a>
 		
 		</div>
 	
@@ -57,7 +58,7 @@ body {
 
 			</div>
 	
-			<div id="content" class="w3-col" style="width:80%; display:none">
+			<div id="content" class="w3-container" style="width:80%; display:none">
 			</div>
 
 			<div id="main_page" class="w3-col" style="width:80%">
@@ -66,7 +67,7 @@ body {
 
 					<div class="w3-bar">
 						<h1 class="w3-margin">Blog.</h1>
-						<a onclick="addBlogPost()" class="w3-button w3-right w3-padding w3-hover-blue">+</a>
+						<a onclick="addBlogPost()" class="w3-button w3-right w3-padding w3-hover-blue w3-round-large">+</a>
 					</div>
 					
 
@@ -120,8 +121,8 @@ body {
 </body>
 
 <footer>
-	<div class="footer">
-		<p></p>
+	<div class="w3-container w3-center">
+		<p>Strother Woog | <a href="https://strocodes.com/main">strocodes.com</a></p>
 	</div>
 </footer>
 
