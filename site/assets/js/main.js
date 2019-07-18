@@ -53,7 +53,7 @@ function addBlogPost() {
 
 function loadImages() {
     document.getElementById('main_page').style.display = 'none';
-    document.getElementById('content').innerHTML = '<object type="text/html" data="images.html" style="width:100%;height:100%"></object>';
+    document.getElementById('content').innerHTML = '<object type="text/html" data="images.html" style="width:100%;height:auto"></object>';
     document.getElementById('content').style.display = 'initial';
 } 
 

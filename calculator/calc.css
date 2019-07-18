@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+#calc_container {
+    display: table;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+input[type=button] {
+    width: 23%;
+    height: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+}
