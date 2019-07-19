@@ -1,0 +1,14 @@
+body {
+	background-color: wheat;
+}
+
+#cardAlert {
+	position: absolute;
+	z-index: 100;
+	right: 0%;
+	left: 0%;
+	vertical-align: middle;
+	width: 25%;
+	margin: auto;
+	visibility: hidden;
+}
