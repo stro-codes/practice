@@ -2,6 +2,7 @@
     <head>
         <title>Stro's Calculator</title>
         <link rel="stylesheet" href="calc.css">
+        <script src="calc.js"></script>
     </head>
 
     <body>
@@ -11,7 +12,7 @@
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '1'" value="1">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '2'" value="2">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '3'" value="3">
-                <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '+'" value="+">
+                <input type="button" onclick="add(document.getElementById('output').value)" value="+">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '4'" value="4">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '5'" value="5">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '6'" value="6">
@@ -23,7 +24,7 @@
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '0'" value="0">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '*'" value="*">
                 <input type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '/'" value="/">
-                <input type="button" onclick="document.getElementById('output').value = ''" value="Clear">
+                <input type="button" onclick="clear()" value="Clear">
             </form>
         </div>
     </body>

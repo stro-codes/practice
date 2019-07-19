@@ -4,6 +4,7 @@
 
 body {
     overflow: auto;
+    height: 100%;
 }
 
 #pony {
@@ -16,7 +17,7 @@ body {
     background-position: auto;
     background-repeat: no-repeat;
     font-family: 'Muli', sans-serif;
-
+    position: relative;
 }
 
 #content {
