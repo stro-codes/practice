@@ -1,5 +1,13 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1440098334316-9b3afb87b5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+    overflow: hidden;
+}
+
+#pony {
+    height: 100px;
+}
+
+#content_body {
+    background-image: url();
     background-size: cover;
     background-position: auto;
     background-repeat: no-repeat;
