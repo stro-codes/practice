@@ -1,8 +1,20 @@
+html {
+  height: 100%;
+  margin: 0px;
+}
+
 header {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
 body {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
