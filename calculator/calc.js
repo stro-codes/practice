@@ -1,3 +1,4 @@
+
 var result = 0;
 var arr = {};
 
@@ -13,6 +14,7 @@ function add(x) {
 
 function clear() {
     document.getElementById('output').value = ' ';
+    console.log(evaluate(4).toString());
 }
 
 function equals(x) {
