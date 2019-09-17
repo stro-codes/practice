@@ -1,5 +1,5 @@
 <html>
-    
+
     <head>
         <title>Stro's Calculator</title>
         <link rel="stylesheet" href="calc.css">
@@ -14,12 +14,14 @@
         </div>
         <div style="margin:auto" id="calc_container" class="container card py-md-2">
             <form>
-                <input class="form-control" id="output" type="text">
-                <div class="container px-md-5 mx-auto">
-                    <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '1'" value="1">
-                    <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '2'" value="2">
-                    <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '3'" value="3">
-                    <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '+'" value="+">
+                <input class="form-inline" id="output" type="text">
+                <div class="container px-md-5 mx-md-5">
+                    <div class="d-flex justify-content-center">
+                        <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '1'" value="1">
+                        <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '2'" value="2">
+                        <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '3'" value="3">
+                        <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '+'" value="+">
+                    </div>
                     <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '4'" value="4">
                     <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '5'" value="5">
                     <input class="btn btn-outline-primary" type="button" onclick="document.getElementById('output').value = document.getElementById('output').value + '6'" value="6">
